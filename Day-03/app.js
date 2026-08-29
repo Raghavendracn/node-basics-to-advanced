@@ -1,6 +1,8 @@
 require("./xyz"); // one module into another
 // const calculateSum = require("./sum");
 const { calculateSum } = require("./sum");
+
+const {calculateMultiply} = require("./calculate/multiply");
 var name = "Namaste Raghav!...";
 
 var a = 10;
@@ -10,6 +12,8 @@ console.log(name);
 console.log(a + b);
 calculateSum(3, 5);
 console.log(x);
+calculateMultiply(12,13);
+
 // console.log(global);
 // console.log(this);
 
